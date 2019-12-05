@@ -1,0 +1,133 @@
+*{
+  text-align: center;
+}
+
+input[type=text]{
+    width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+
+  input[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+
+  input[type=Password]{
+    width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+
+  input[type=Password]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+
+  input[type=submit]{
+    background: linear-gradient(#67ae55, #578843);
+background-color: #69a74e;
+box-shadow: inset 0 1px 1px #a4e388;
+border-color: #3b6e22 #3b6e22 #2c5115;
+border: 1px solid;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+min-width: 194px;
+padding: 7px 20px;
+text-align: center;
+
+  }
+
+
+  input[type=file]{
+    background: linear-gradient(#67ae55, #578843);
+background-color: #69a74e;
+box-shadow: inset 0 1px 1px #a4e388;
+border-color: #3b6e22 #3b6e22 #2c5115;
+border: 1px solid;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+min-width: 194px;
+padding: 7px 20px;
+text-align: center;
+
+  }
+
+p{
+  color: #A98439;
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  border: 100px;
+  margin: auto;
+}
+
+
+h2{
+
+  text-align: center;
+  /* border: 5px dashed purple; */
+  cursor: pointer;
+  border: 5px solid rgba(0, 176, 170, .3);
+  color: #3cf;
+  /* very cool pointer */
+
+}
+
+h3{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: #3cf;
+    transition: all .2s ease;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+div{
+
+}
+
+  body {
+    background-image: url(backgroundimage.jpg);
+    background-size: cover;
+  }
+
+
+  .webtext {
+    color: green;
+    border: 3px dashed;
+  }
+
+  .webtextActive{
+    color: purple;
+    border: 6px color orange;
+  }
+
+  #div {
+    background: blue:
+  }
+
+  #div1{
+    color: red;
+  }
